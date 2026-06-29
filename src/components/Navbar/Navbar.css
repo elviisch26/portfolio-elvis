@@ -1,0 +1,54 @@
+html {
+    --primary-color: #282c34;
+    --secondary-color: #fff;
+}
+
+/* Variables de color si el tema es dark */
+html[data-theme="dark"] {
+    --primary-color: #fff;
+    --secondary-color: #282c34;
+}
+
+.navbar-style{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    color:  var(--primary-color);
+}
+
+.navbar-left{
+    font-size: 1rem;
+    margin-top:10px;
+    display: flex;
+}
+
+.navbar-right{
+    font-size: 0.9rem;
+}
+
+.navbar-profile-photo{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.navbar-profile-icon {
+    font-size: 2.5rem;
+    color: var(--grey-color);
+}
+
+.nabvar-links{
+    color:  var(--primary-color);
+    text-decoration: none;
+}
+
+.nabvar-links:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:500px){
+    .navbar-left{
+        display: none;
+    }
+    .navbar-right{
+        margin-left: auto;
+    }
+}

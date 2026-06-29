@@ -1,0 +1,48 @@
+.card-style{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-img-back{
+    width: 2.2rem;
+    height: 2.2rem;
+    border: 1px solid rgb(226, 226, 226);
+    background-color: rgb(231, 231, 231);
+    border-radius: 50%;
+}
+.card-img{
+    width: 2.1rem;
+    height: 2.1rem;
+    margin-right: 15px;
+}
+
+.card-url-title{
+    color: var(--primary-color);
+}
+
+.card-url{
+    color: var(--grey-color);
+    font-size: 0.9rem;
+}
+
+.card-description{
+    color: var(--primary-color);
+}
+
+.card-title{
+    text-decoration: none;
+    color: var(--link-color);;
+    font-size: 1.5rem;
+}
+
+.card-title:hover{
+    text-decoration: underline;
+}
+
+.icon-more-vert{
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 900px){
+    .card-description{
+        width: 100%;
+    }
+}

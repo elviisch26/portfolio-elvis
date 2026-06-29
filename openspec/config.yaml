@@ -1,0 +1,50 @@
+schema: spec-driven
+
+context: |
+  React 18 + Vite 5 + Bootstrap 5 (CDN) portfolio site.
+  JavaScript (no TypeScript). React Router v6 SPA, CSS custom properties for theming (dark/light mode).
+  Carousels via Swiper 11 + react-multi-carousel. HTTP via axios. Deploys to Netlify.
+  Original author: Gastón García Bauer. Upcoming change "adaptar-portfolio-elvis" replaces data with Elvis Chávez's.
+
+rules:
+  proposal:
+    - Include rollback plan for risky changes
+    - Clarify which data is static (constants) vs dynamic (API)
+  specs:
+    - Use Given/When/Then for scenarios
+    - Use RFC 2119 keywords (MUST, SHALL, SHOULD, MAY)
+    - Spanish labels for sections are OK in page content, keep spec English
+  design:
+    - Prefer editing existing constants/component data over restructuring
+    - Document architecture decisions with rationale
+  tasks:
+    - Group by page/section, use hierarchical numbering
+    - Keep tasks completable in one session
+  apply:
+    - Follow existing code patterns
+    tdd: false
+    test_command: ""
+  verify:
+    test_command: ""
+    build_command: "npm run build"
+    coverage_threshold: 0
+  archive:
+    - Warn before merging destructive deltas
+
+testing:
+  strict_tdd: false
+  runner: null
+  runner_command: null
+  layers:
+    unit: false
+    integration: false
+    e2e: false
+  coverage: false
+  coverage_command: null
+  quality:
+    linter: eslint
+    linter_command: "npm run lint"
+    type_checker: null
+    type_checker_command: null
+    formatter: null
+    formatter_command: null

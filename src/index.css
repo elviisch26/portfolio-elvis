@@ -1,0 +1,103 @@
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+span,
+hr,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    min-height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+html {
+    --primary-color: #282c34;
+    --secondary-color: #fff;
+    --grey-color: rgb(80, 80, 80);
+    --link-color: #1a0dab;
+    --footer-color: #f3f3f3;
+}
+
+
+/* Variables de color si el tema es dark */
+html[data-theme="dark"] {
+    --primary-color: #fff;
+    --secondary-color: #282c34;
+    --grey-color: #c4c4c4;
+    --link-color: #7bcbe4;
+    --footer-color: #494949;
+}
+
+body{
+    background-color: var(--secondary-color);
+    color:  var(--primary-color);
+}
+
+.google-blue {
+    color: #4285F4;
+    font-family: "Poppins", sans-serif;
+}
+
+.google-red {
+    color: #EA4335;
+    font-family: "Poppins", sans-serif;
+}
+
+.google-yellow {
+    color: #FBBC05;
+    font-family: "Poppins", sans-serif;
+}
+
+.google-green {
+    color: #34A853;
+    font-family: "Poppins", sans-serif;
+}
+
+.google-word {
+    font-size: clamp(4.2rem, 12vw, 6rem);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+}
+
+.bloque-margen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+
+.sun-icon{
+    user-select: none;
+    cursor: pointer;
+    margin-left: -10px;
+}
+
+.page-layout {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-layout .footer-cv-container,
+.page-layout .footer-block {
+    margin-top: auto;
+}

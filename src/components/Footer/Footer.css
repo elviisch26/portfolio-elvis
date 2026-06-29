@@ -1,0 +1,17 @@
+.footer-block{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--footer-color);
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-links{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.footer-links:hover{
+    text-decoration: underline;
+}

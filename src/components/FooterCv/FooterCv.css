@@ -1,0 +1,11 @@
+.footer-cv-container{
+    width: 100%;
+    background-color: var(--footer-color);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+    color: var(--secondary-color);
+}
+
+.footer-cv{
+    color: var(--primary-color);
+}
