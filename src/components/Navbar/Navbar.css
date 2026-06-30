@@ -38,10 +38,12 @@ html[data-theme="dark"] {
 .nabvar-links{
     color:  var(--primary-color);
     text-decoration: none;
+    transition: opacity 0.2s ease;
 }
 
 .nabvar-links:hover{
     text-decoration: underline;
+    opacity: 0.8;
 }
 
 @media screen and (max-width:500px){
