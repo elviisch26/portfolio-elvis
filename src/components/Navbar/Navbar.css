@@ -46,6 +46,12 @@ html[data-theme="dark"] {
     opacity: 0.8;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    .nabvar-links {
+        transition: none;
+    }
+}
+
 @media screen and (max-width:500px){
     .navbar-left{
         display: none;

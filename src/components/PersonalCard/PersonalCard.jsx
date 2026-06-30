@@ -33,10 +33,10 @@ export const PersonalCard = ({LinkTo}) => {
             <div className="pb-4">
                 <p className="pt-4 pb-3 profile-description">{PROFILE.name} es un desarrollador web y móvil ecuatoriano, nacido en Manta, Manabí. Estudiante de Ingeniería en Tecnologías de la Información en la ULEAM. Apasionado por la tecnología, la resolución de problemas y el aprendizaje continuo.</p>
                 <p className="pb-2"><span className="fw-bold">Nacimiento:</span> Manta, Ecuador</p>
-                <p className="pb-2"><span className="fw-bold">Títulos:</span> Ingeniería en Tecnologías de la Información (en curso)</p>
+                <p className="pb-2"><span className="fw-bold">Títulos:</span> Ingeniería en Tecnologías de la Información</p>
                 <p className="pb-2"><span className="fw-bold">Habilidades blandas:</span> Resolución de problemas complejos, pensamiento analítico, curiosidad intelectual, aprendizaje acelerado, trabajo en equipos multidisciplinarios.</p>
-                <p className="pb-2"><span className="fw-bold">Idiomas:</span> Español (nativo)</p>
-                <p className="pb-2"><span className="fw-bold">Intereses:</span> Desarrollo web y móvil, inteligencia artificial, deportes, viajes, lectura</p>
+                <p className="pb-2"><span className="fw-bold">Idiomas:</span> Español </p>
+                <p className="pb-2"><span className="fw-bold">Intereses:</span> Desarrollo web y móvil, inteligencia artificial.</p>
             </div>
             <div className="perfiles">
                 <p className="fs-2 pb-2">Perfiles</p>
