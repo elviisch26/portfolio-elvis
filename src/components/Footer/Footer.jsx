@@ -1,27 +1,17 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { PROFILE } from '../../constants/profile'
 import './Footer.css'
 
 export const Footer = () => {
-    return (
-        <>
-            <div className='footer-block '>
-                <div className='px-4 py-3'>
-                    <p>Ecuador</p>
-                </div>
-                <hr className='text-secondary' />
-                <div className='d-flex justify-content-between py-3 flex-wrap'>
-                    <div className='px-4 d-flex gap-4'>
-                        <Link className='footer-links' to="/quien-soy">Quién soy</Link>
-                        <Link className='footer-links' to="/experiencia">Experiencia</Link>
-                        <Link className='footer-links' to="/educacion">Estudios</Link>
-                    </div>
-                    <div className='px-4 d-flex gap-4 flex-wrap'>
-                        <Link className='footer-links' to="/conocimientos">Conocimientos</Link>
-                        <Link className='footer-links' to="/curriculum_vitae">Curriculum</Link>
-                    </div>
-                </div>
-            </div>
-        </>
-    )
+  return (
+    <footer className="footer-root">
+      <div className="footer-inner">
+        <span>© {new Date().getFullYear()} Elvis Chávez</span>
+        <div className="footer-social">
+          <a href={PROFILE.githubUrl} target="_blank" rel="noopener noreferrer">GitHub</a>
+          <span>•</span>
+          <a href={`mailto:${PROFILE.email}`}>Email</a>
+        </div>
+      </div>
+    </footer>
+  )
 }
