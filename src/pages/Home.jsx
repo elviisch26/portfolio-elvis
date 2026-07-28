@@ -133,7 +133,7 @@ export const Home = () => {
               className="proyecto-card"
             >
               <div className="card-preview" style={{ background: p.gradient }}>
-                screenshot
+
               </div>
               <div className="card-body">
                 <h3>{p.title}</h3>
