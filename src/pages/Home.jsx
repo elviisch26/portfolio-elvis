@@ -60,7 +60,7 @@ const skills = [
   "Angular", "Vue.js", "NestJS", "Laravel", "Flutter",
   "Python", "Docker", "TypeScript", "JavaScript", "SQL",
   "MongoDB", "PostgreSQL", "React", "Node.js", "Git",
-  "TailwindCSS", "Bootstrap", "FastAPI", "Docker"
+  "TailwindCSS", "Bootstrap", "FastAPI"
 ]
 
 export const Home = () => {
@@ -118,10 +118,10 @@ export const Home = () => {
           <div className="about-text">
             <h2>{PROFILE.name}</h2>
             <p>
-              Desarrollador web y móvil ecuatoriano, nacido en Manta, Manabí.
-              Ingeniero en Tecnologías de la Información graduado de la ULEAM.
-              Apasionado por la tecnología, la resolución de problemas y el aprendizaje continuo.
-              Transformando ideas en código limpio y escalable.
+              Ecuatoriano, Ingeniero en TI. Construyo APIs robustas con FastAPI y NestJS,
+              apps cross-platform con Flutter, y sistemas web con Angular, React y Laravel.
+              TypeScript, Docker y PostgreSQL son mi pan de cada día.
+              Me apasiona resolver problemas reales con arquitectura limpia.
             </p>
           </div>
         </div>
