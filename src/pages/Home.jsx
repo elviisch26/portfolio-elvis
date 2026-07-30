@@ -6,6 +6,13 @@ import "./Home.css"
 
 const projects = [
   {
+    title: "Sistema de Gestión Empresarial",
+    desc: "API REST con 8 módulos, 43 endpoints, autenticación JWT, RBAC, caché Redis y 64 tests",
+    tags: ["Python", "FastAPI", "PostgreSQL", "Docker", "Redis", "SQLAlchemy"],
+    url: "https://github.com/elviisch26/sistema-gestion-empresarial",
+    gradient: "linear-gradient(135deg, #0f2027, #203a43)"
+  },
+  {
     title: "Modelo de IA y Deep Learning",
     desc: "Análisis de sentimientos con redes neuronales recurrentes (LSTM y GRU)",
     tags: ["Python", "LSTM", "GRU", "NLP", "Streamlit"],
@@ -53,7 +60,7 @@ const skills = [
   "Angular", "Vue.js", "NestJS", "Laravel", "Flutter",
   "Python", "Docker", "TypeScript", "JavaScript", "SQL",
   "MongoDB", "PostgreSQL", "React", "Node.js", "Git",
-  "TailwindCSS", "Bootstrap"
+  "TailwindCSS", "Bootstrap", "FastAPI", "Docker"
 ]
 
 export const Home = () => {
